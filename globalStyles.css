@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@500;600&display=swap");
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+:root {
+  --white-1: #eeeeee;
+  --blue-1: #dbe2ef;
+  --blue-2: #3f72af;
+  --blue-3: #112d4e;
+  --blue-4: #0f4c75;
+  --light-blue-1: #b3cbf4;
+  --green-1: #328a32;
+}
+
+body {
+  background-color: var(--white-1);
+  overflow-x: hidden;
+}
+
+/*Razmak između sekcija*/
+section {
+  padding: 100px 0;
+}
+
+/*Padding za manje ekrane*/
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+}
+.container {
+  max-width: 1200px;
+  /*Maksimalna širina sadržaja*/
+  width: 90%;
+  /*Razmak na rubu ekrana*/
+  margin: 0 auto;
+  /*Centrira sve*/
+}
+
+/*Definiran stil slika*/
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-size: 1.8rem;
+  /*1.8rem->18px*/
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}/*# sourceMappingURL=globalStyles.css.map */

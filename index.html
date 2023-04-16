@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Morski Dragulj</title>
+    <link rel="icon" href="./images/diamond.webp" type="images/webp" />
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./globalStyles.css" />
+    <link rel="stylesheet" href="./components.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- AOS CSS (Scroll animation) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- End of Linking CSS -->
+  </head>
+
+  <body>
+    <!-- Nav Section -->
+    <div class="nav">
+      <div class="container">
+        <div class="nav__wrapper">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="./index.html" class="logo">
+              <img src="./images/Logo.png" alt="Morski Dragulj" />
+            </a>
+          </div>
+          <!-- End Logo -->
+          <nav>
+            <div class="nav__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__bgOverlay"></div>
+            <ul class="nav__list">
+              <div class="nav__close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </div>
+              <div class="nav__list__wrapper">
+                <li>
+                  <a href="./index.html" class="nav__link"> Home </a>
+                </li>
+                <li>
+                  <a href="./menu.html" class="nav__link"> Menu </a>
+                </li>
+                <li>
+                  <a href="./about.html" class="nav__link"> About </a>
+                </li>
+                <li>
+                  <a href="./contact.html" class="nav__link"> Contact </a>
+                </li>
+                <li>
+                  <a href="./booking.html" class="btn primary-btn"
+                    >Book Table</a
+                  >
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- End Nav Section -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__left" data-aos="fade-left">
+            <div class="hero__left__wrapper">
+              <h1 class="hero__heading">The flavor of Sea</h1>
+              <p class="hero__info">
+                Indulge in the freshest seafood dishes at our restaurant, where
+                we specialize in providing an exceptional dining experience
+                centered around the flavors from the sea.
+              </p>
+              <div class="button__wrapper">
+                <a href="./menu.html" class="btn primary-btn">Explore Menu</a>
+                <a href="./booking.html" class="btn">Book Table</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero__right" data-aos="fade-right">
+            <div class="hero__imgWrapper">
+              <img src="./images/hero.jpg" alt="Food img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Store Info Section -->
+    <section id="storeInfo" data-aos="fade-up">
+      <div class="container">
+        <div class="storeInfo__wrapper">
+          <div class="storeInfo__item">
+            <div class="storeInfo__icon">
+              <img src="./images/icons/wall-clock-icon.svg" alt="icon" />
+            </div>
+            <h3 class="storeInfo__title">12 AM - 10PM</h3>
+            <p class="storeInfo__text">Opening Hour</p>
+          </div>
+          <div class="storeInfo__item">
+            <div class="storeInfo__icon">
+              <img src="./images/icons/address-icon.svg" alt="icon" />
+            </div>
+            <h3 class="storeInfo__title">Dalmatia, Croatia</h3>
+            <p class="storeInfo__text">Address</p>
+          </div>
+          <div class="storeInfo__item">
+            <div class="storeInfo__icon">
+              <img src="./images/icons/phone-icon.svg" alt="icon" />
+            </div>
+            <h3 class="storeInfo__title">+01 2371 061</h3>
+            <p class="storeInfo__text">Call Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Store Info Section -->
+
+    <!-- Our Specials Section -->
+    <section id="ourSpecials" data-aos="fade-up">
+      <div class="container">
+        <div class="ourSpecials__wrapper">
+          <div class="ourSpecials__left">
+            <div class="ourSpecials__item">
+              <div class="ourSpecials__item__img">
+                <img src="./images/special1.jpg" alt="food img" />
+              </div>
+              <h2 class="ourSpecials__item__title">
+                Cioppino with Fennel and Saffron
+              </h2>
+              <h3 class="ourSpecials__item__price">35€</h3>
+              <div class="ourSpecials__item__stars">
+                <img src="./images/5star.svg" alt="3 stars" />
+              </div>
+              <p class="ourSpecials__item__text">
+                A rich and flavorful seafood stew, featuring fresh shrimp,
+                scallops, crab, and white fish in a tomato-based broth infused
+                with aromatic fennel and saffron. It's a satisfying and
+                delicious dish that's can introduce you to new tastes of the
+                sea.
+              </p>
+            </div>
+            <div class="ourSpecials__item">
+              <div class="ourSpecials__item__img">
+                <img src="./images/special2.jpg" alt="food img" />
+              </div>
+              <h2 class="ourSpecials__item__title">
+                Shrimp salad with fresh Prawns
+              </h2>
+              <h3 class="ourSpecials__item__price">20€</h3>
+              <div class="ourSpecials__item__stars">
+                <img src="./images/4star.svg" alt="3 stars" />
+              </div>
+              <p class="ourSpecials__item__text">
+                A delicious combination of juicy prawns, tender shrimp, fresh
+                greens, and tangy vinaigrette. It's a mouthwatering dish that's
+                perfect for seafood lovers and health enthusiasts alike.
+              </p>
+            </div>
+          </div>
+          <div class="ourSpecials__right">
+            <h2 class="ourSpecials__title">Our Specials</h2>
+            <p class="ourSpecials__text">
+              At our seafood restaurant, we take pride in serving only the
+              freshest and highest quality seafood dishes to our customers. Our
+              commitment to quality and freshness is what sets us apart from the
+              rest, and we can't wait to share our passion for seafood with you.
+            </p>
+            <a href="./menu.html" class="btn primary-btn">View Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Specials Section -->
+
+    <!-- Top Dishes Section -->
+    <section id="dishGrid" data-aos="fade-up">
+      <div class="container">
+        <h2 class="dishGrid__title">Top Dishes</h2>
+        <div class="dishGrid__wrapper">
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="./images/special1.jpg" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">
+                Cioppino with Fennel and Saffron
+              </h3>
+              <h3 class="dishGrid__item__price">35€</h3>
+              <div class="dishGrid__item__stars">
+                <img src="./images/5star.svg" alt="5 stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="./images/squidink.webp" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">
+                Squid Ink Mafaldine Pasta with Uni Butter
+              </h3>
+              <h3 class="dishGrid__item__price">18€</h3>
+              <div class="dishGrid__item__stars">
+                <img src="./images/5star.svg" alt="5 stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="./images/wierdfish.webp" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Kwame's Escovitch Snapper</h3>
+              <h3 class="dishGrid__item__price">18€</h3>
+              <div class="dishGrid__item__stars">
+                <img src="./images/5star.svg" alt="4 stars" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Top Dishes Section -->
+
+    <!-- Discount Section -->
+    <section id="discount" data-aos="fade-up">
+      <div class="container">
+        <div class="discount__wrapper">
+          <div class="discount__images">
+            <div class="discount__img1">
+              <img src="./images/img1.webp" alt="food img" />
+            </div>
+            <div class="discount__img2">
+              <img src="./images/img2.webp" alt="food img" />
+            </div>
+            <div class="discount__img3">
+              <img src="./images/img3.webp" alt="food img" />
+            </div>
+          </div>
+          <div class="discount__info">
+            <h3 class="discount__text">20% OFF</h3>
+            <h3 class="discount__title">Pasta Party Day</h3>
+            <h3 class="discount__price">
+              <span class="discount__oldPrice">26€</span>
+              <span class="discount__newPrice">20.8€</span>
+            </h3>
+            <div class="discount__stars">
+              <img src="./images/5star.svg" alt="5 stars" />
+            </div>
+            <a href="./booking.html" class="btn primary-btn">Book Table</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Discount Section -->
+
+    <!-- Events Media Section -->
+    <section id="eventsMedia" data-aos="fade-up">
+      <div class="container">
+        <div class="eventsMedia__wrapper">
+          <div class="eventsMedia__1">
+            <img src="./images/event-media1.jpg" alt="events" />
+          </div>
+          <div class="eventsMedia__2">
+            <img src="./images/event-media2.jpg" alt="events" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Events Media Section -->
+
+    <!-- Events Info Section -->
+    <section id="eventsInfo" data-aos="fade-up">
+      <div class="container">
+        <div class="eventsInfo__wrapper">
+          <div class="eventsInfo__left">
+            <div class="eventsInfo__item">
+              <div class="eventsInfo__item__img">
+                <img src="./images/event-corporate.png" alt="events" />
+              </div>
+              <div class="eventsInfo__item__info">
+                <h2 class="eventsInfo__item__title">Private Events</h2>
+                <p class="eventsInfo__item__text">
+                  Host your event at Morski Dragulj. Our experienced team will
+                  create a customized dining experience to meet your needs and
+                  budget. Contact us to book your unforgettable event today.
+                </p>
+              </div>
+            </div>
+            <div class="eventsInfo__item">
+              <div class="eventsInfo__item__img">
+                <img src="./images/event-weedings.png" alt="events" />
+              </div>
+              <div class="eventsInfo__item__info">
+                <h2 class="eventsInfo__item__title">Wedding</h2>
+                <p class="eventsInfo__item__text">
+                  Tie the knot at Morski Dragulj. Our exceptional cuisine,
+                  stunning location, and personalized service will make your
+                  wedding unforgettable. Contact us to start planning your dream
+                  day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="eventsInfo__right">
+            <h2 class="eventsInfo__title">Book For Events</h2>
+            <p class="eventsInfo__text">
+              Book your private event or wedding to get a truly unique
+              experience.
+            </p>
+            <a href="./contact.html" class="btn primary-btn">Contact Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Events Info Section -->
+
+    <!-- Why Us Section -->
+    <section id="whyUs">
+      <div class="container">
+        <div class="whyUs__wrapper">
+          <div class="whyUs__left" data-aos="fade-right">
+            <h2 class="whyUs__title">Why Choose Our Food</h2>
+            <p class="whyUs__text">
+              At Morski Dragulj, we are passionate about serving the freshest
+              and most delicious seafood possible. We take pride in sourcing our
+              seafood locally, ensuring that every dish is made with the
+              freshest ingredients. Our chefs expertly prepare each dish, using
+              traditional cooking methods and unique flavor combinations to
+              create a truly unforgettable dining experience.
+            </p>
+          </div>
+          <div class="whyUs__right" data-aos="fade-left">
+            <div class="whyUs__item__wrapper">
+              <div class="whyUs__item">
+                <div class="whyUs__item__icon">
+                  <img
+                    src="./images/icons/whyUs-icon1.svg"
+                    alt="quality food"
+                  />
+                </div>
+                <p class="whyUs__item__text">Quality Food</p>
+              </div>
+              <div class="whyUs__item">
+                <div class="whyUs__item__icon">
+                  <img
+                    src="./images/icons/whyUs-icon2.svg"
+                    alt="classical taste"
+                  />
+                </div>
+                <p class="whyUs__item__text">Unique taste</p>
+              </div>
+              <div class="whyUs__item">
+                <div class="whyUs__item__icon">
+                  <img
+                    src="./images/icons/whyUs-icon3.svg"
+                    alt="skilled chefs"
+                  />
+                </div>
+                <p class="whyUs__item__text">Skilled chefs</p>
+              </div>
+              <div class="whyUs__item">
+                <div class="whyUs__item__icon">
+                  <img
+                    src="./images/icons/whyUs-icon4.svg"
+                    alt="best service"
+                  />
+                </div>
+                <p class="whyUs__item__text">Best service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Why Us Section -->
+
+    <!-- Testimonial Section -->
+    <section id="testimonial" data-aos="fade-up">
+      <div class="container">
+        <div class="testimonial__wrapper">
+          <h2 class="testimonial__title">What Our Customers Say</h2>
+          <div class="testimonial__item__wrapper">
+            <div class="testimonial__item">
+              <div class="testimonial__item__img">
+                <img src="./images/testimonial1.jpg" alt="Name" />
+              </div>
+              <div class="testimonial__item__info">
+                <h3 class="testimonial__item__name">Kanye East</h3>
+                <div class="testimonial__item__star">
+                  <img src="./images/5star.svg" alt="stars" />
+                </div>
+                <p class="testimonial__item__text">
+                  “Morski Dragulj is a fantastic restaurant with a beautiful
+                  seaside view, exceptional service, and delicious seafood
+                  dishes. Highly recommended!”
+                </p>
+              </div>
+            </div>
+            <div class="testimonial__item">
+              <div class="testimonial__item__img">
+                <img src="./images/testimonial2.jpg" alt="Name" />
+              </div>
+              <div class="testimonial__item__info">
+                <h3 class="testimonial__item__name">Linus Sebastian</h3>
+                <div class="testimonial__item__star">
+                  <img src="./images/4star.svg" alt="stars" />
+                </div>
+                <p class="testimonial__item__text">
+                  “Visited Morski Dragulj with friends last Sunday. Really great
+                  meal and very warm welcome – we would recommend this lovely
+                  restaurant and will definitely go back again.”
+                </p>
+              </div>
+            </div>
+            <div class="testimonial__item">
+              <div class="testimonial__item__img">
+                <img src="./images/testimonial3.webp" alt="Name" />
+              </div>
+              <div class="testimonial__item__info">
+                <h3 class="testimonial__item__name">Gordon Ramsay</h3>
+                <div class="testimonial__item__star">
+                  <img src="./images/5star.svg" alt="stars" />
+                </div>
+                <p class="testimonial__item__text">
+                  “The restaurant was exeptional. We held a wedding there and
+                  the service was fast and on point. The food was expensive, but
+                  marvelous and worth it!”
+                </p>
+              </div>
+            </div>
+            <div class="testimonial__item">
+              <div class="testimonial__item__img">
+                <img src="./images/testimonial4.jpg" alt="Name" />
+              </div>
+              <div class="testimonial__item__info">
+                <h3 class="testimonial__item__name">Carly Shay</h3>
+                <div class="testimonial__item__star">
+                  <img src="./images/5star.svg" alt="stars" />
+                </div>
+                <p class="testimonial__item__text">
+                  “Me and my friends went there and had a lovely time. The
+                  service was great and the view was stunning. 10/10
+                  experience!”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" data-aos="fade-up">
+      <div class="container">
+        <div class="newsletter__wrapper">
+          <div class="newsletter__info">
+            <h3 class="newsletter__title">Join Newsletter</h3>
+            <p class="newsletter__text">
+              Get notified with the latest news and recent offers from the
+              “Morski Dragulj”
+            </p>
+          </div>
+          <div class="newsletter__form">
+            <form>
+              <label for="email">
+                <input type="email" placeholder="Your Email Address" />
+              </label>
+              <button type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Newsletter Section -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__col1">
+            <div class="footer__logo">
+              <img src="./images/Logo.png" alt="Morski Dragulj" />
+            </div>
+            <p class="footer__desc">
+              Discover the gems of the sea, with fresh and flavorful seafood
+              dishes that will leave you wanting more.
+            </p>
+            <div class="footer__socials">
+              <h4 class="footer__socials__title">Follow us</h4>
+              <ol>
+                <li>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                      <path
+                        d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                      />
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="footer__col2">
+            <h3 class="footer__text__title">Links</h3>
+            <ol class="footer__text">
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./menu.html">Menu</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./booking.html">Book Table</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ol>
+          </div>
+          <div class="footer__col3">
+            <h3 class="footer__text__title">Support</h3>
+            <ol class="footer__text">
+              <li>
+                <a href="./contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Support Center</a>
+              </li>
+              <li>
+                <a href="#">Feedback</a>
+              </li>
+            </ol>
+          </div>
+          <div class="footer__col4">
+            <h3 class="footer__text__title">Contact Info</h3>
+            <ol class="footer__text">
+              <li>
+                <a href="tel:+012371061">+01 2371 061</a>
+              </li>
+              <li>
+                <a href="mailto:morskidragulj@gmail.com"
+                  >morskidragulj@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="#">Morski Dragulj, Dalmatia, Croatia</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copyright">
+      <div class="container">
+        <p class="copyright__text">
+          © copyright 2023 Morski Dragulj | All rights reserved
+        </p>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- JS script -->
+    <script src="./main.js"></script>
+  </body>
+</html>
